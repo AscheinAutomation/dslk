@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 void swap(int &x, int &y)
 {
@@ -61,7 +60,7 @@ void print(int a[], int size)
 }
 
 int main(){
-   int a[] = {64, 34, 25, 12, 22, 11, 90};
+   int a[] = {40, 11, 25, 12, 22, 13, 76};
     int n = sizeof(a)/sizeof(a[0]);
     bubbleSort(a, n);
     cout<<" Mang sau khi xep la: ";
