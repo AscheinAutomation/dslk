@@ -24,9 +24,9 @@ struct book {
     char* isbn;
     char* author;
     char* language;
-    int year;
-    int price;
-    int stockLevel;
+    unsigned int year;
+    unsigned int price;
+    unsigned int stockLevel;
     book* next;
 };
 
@@ -310,6 +310,7 @@ int main() {
             cin >> x;
             if (x >= 1 && x <= 7) break;
             else cout << "Vui long nhap lai:" << endl;
+            cin.ignore();
 		}
         cout << endl;
         switch (x)
